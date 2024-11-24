@@ -1,0 +1,88 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Eadexternal-exp6",
+    "collectionId": "c9f0e519-8926-4d48-8747-e787b860dd2f",
+    "dateExported": "2024-11-24T18:34:58.078Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "564b91e1-e6b1-425a-af11-9dd05aa51ca5",
+            "colId": "c9f0e519-8926-4d48-8747-e787b860dd2f",
+            "containerId": "",
+            "name": "Protected admin route",
+            "url": "http://localhost:3000/admin",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-24T18:30:16.499Z",
+            "modified": "2024-11-24T18:30:16.499Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzMyNDcyODgxLCJleHAiOjE3MzI0NzY0ODF9.gkn1_endrsxiiEP-X1moMWJMN0sBst7iiRhfSTaIo5c"
+            }
+        },
+        {
+            "_id": "26cd6b3c-1924-4b86-aede-445a449e1ab8",
+            "colId": "c9f0e519-8926-4d48-8747-e787b860dd2f",
+            "containerId": "",
+            "name": "Landing Page Route",
+            "url": "http://localhost:3000",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-11-24T18:30:43.539Z",
+            "modified": "2024-11-24T18:30:43.539Z",
+            "headers": []
+        },
+        {
+            "_id": "f1449777-e233-444f-a1e9-f3e026f1cfa7",
+            "colId": "c9f0e519-8926-4d48-8747-e787b860dd2f",
+            "containerId": "",
+            "name": "User Login",
+            "url": "http://localhost:3000/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-24T18:31:05.093Z",
+            "modified": "2024-11-24T18:31:05.093Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"admin\",\n  \"password\":\"password\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c11af77e-97c8-4845-8ae3-7c55d91ced0b",
+            "colId": "c9f0e519-8926-4d48-8747-e787b860dd2f",
+            "containerId": "",
+            "name": "Admin Dash",
+            "url": "http://localhost:3000/dashboard",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-11-24T18:31:28.708Z",
+            "modified": "2024-11-24T18:31:28.708Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6InVzZXIiLCJpYXQiOjE3MzI0NzI4NTgsImV4cCI6MTczMjQ3NjQ1OH0.cmRSYu2OBM8YCNxXZ3CZi6SzhmP3f14bgq9Wv7whgSA"
+            }
+        },
+        {
+            "_id": "bac754a5-a2c6-4578-9e61-be54b01fb962",
+            "colId": "c9f0e519-8926-4d48-8747-e787b860dd2f",
+            "containerId": "",
+            "name": "Protected Admin Route",
+            "url": "http://localhost:3000/admin",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-11-24T18:32:01.572Z",
+            "modified": "2024-11-24T18:32:01.572Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzMyNDcyODgxLCJleHAiOjE3MzI0NzY0ODF9.gkn1_endrsxiiEP-X1moMWJMN0sBst7iiRhfSTaIo5c"
+            }
+        }
+    ],
+    "ref": "cmIHgelZ7JYARLxsIVDLDNwuGyujLHOkRRle405TjNoE-WSdbuMhPjKw8fkk15qL3qesHX18bK1N7lNuA5JFDA"
+}
